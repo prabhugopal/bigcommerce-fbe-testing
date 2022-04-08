@@ -2,7 +2,7 @@
 
 Uses [playwright] https://playwright.dev for automating bigcommmerce & facebook channel connect & disconnect
 
-How to use?
+> How to use?
 
 - Simple Use
 
@@ -26,11 +26,10 @@ FB_USER=user@mail.com FB_PASSWORD=***** \
 npx playwright test tests/fb.spec.ts --headed --workers=1 --project=chromium --repeat-each 10
 ```
 
-Okay!!, do i really need to write my test script?? I am bit lazy!!! 
-      
-        Aah! We got codegen to record & run!!...
+> Okay!!, do i really need to write my test script?? I am bit lazy!!!
+>>        Aah! We got codegen to record & run!!...
         
-```
+```javascript
 npx playwright codegen --target javascript -o example.js https://store-ma5eg66aub.my-integration.zone/manage/microapps/ng-omnichannel/facebook/about
 ```
 
